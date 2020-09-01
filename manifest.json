@@ -1,0 +1,13 @@
+{
+  "name": "tocaro-customizer",
+  "author": "gzock",
+  "description": "Custom style for new tocaro since 20200901",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://tocaro.im/r3/*"],
+      "css": ["tocaro/style.css"]
+    }
+  ]
+}
