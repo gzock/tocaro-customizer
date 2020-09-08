@@ -2,11 +2,12 @@
   "name": "tocaro-customizer",
   "author": "gzock",
   "description": "Custom style for new tocaro since 20200901",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "content_scripts": [
     {
       "matches": ["https://tocaro.im/r3/*"],
+      "js": ["tocaro/content.js"],
       "css": ["tocaro/style.css"]
     }
   ]
