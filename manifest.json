@@ -2,7 +2,7 @@
   "name": "tocaro-customizer",
   "author": "gzock",
   "description": "Custom style for new tocaro since 20200901",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 2,
   "content_scripts": [
     {
